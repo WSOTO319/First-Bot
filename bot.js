@@ -55,9 +55,3 @@ client.on("messageDelete", async (msg) => {
 });
 
 client.login(process.env.BOT_TOKEN);
-
-/*try {
-			msg.reply("Nothing much just chillin, you?");
-		} catch (error) {
-			// handle failure of any Promise rejection inside here❤️
-		}*/
