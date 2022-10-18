@@ -24,16 +24,16 @@ client.on("ready", () => {
 });
 
 client.on("messageCreate", async (msg) => {
-  if (msg.content === "Naruto, who is your wife?") {
+  if (msg.content === "Hey what's your name bot?") {
     try {
-      msg.reply("That would be Hinata! Believe It!");
+      msg.reply("That would be Naruto! Believe It!");
     } catch (error) {
       msg.channel("LOL");
     }
   }
-  if (msg.content === "What's good Naruto?") {
+  if (msg.content === "What's up Naruto?") {
     try {
-      msg.reply("Nothing much just chillin, you?");
+      msg.reply("Nothing much just working, you?");
     } catch (error) {
       msg.channel("LOL");
     }
