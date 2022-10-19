@@ -74,4 +74,4 @@ client.on("messageDelete", async (msg) => {
   msg.channel.send("Stop deleting messages."); // bot sends a msg that tells user to stop deleting msgs
 });
 
-client.login(process.env.BOT_TOKEN || 5000); // client login
+client.login(process.env.BOT_TOKEN || 8080); // client login
